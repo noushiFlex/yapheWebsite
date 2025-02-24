@@ -6,4 +6,4 @@ function YapheHome() {
   )
 }
 
-export default page
+export default YapheHome

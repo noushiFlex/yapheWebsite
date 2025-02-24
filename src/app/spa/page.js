@@ -6,4 +6,4 @@ function YapheSpa() {
   )
 }
 
-export default Spa
+export default YapheSpa
