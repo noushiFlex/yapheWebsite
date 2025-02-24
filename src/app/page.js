@@ -1,11 +1,12 @@
 import React from 'react'
-import NavBar from '@/components/navbar'
+import NavBar from '@/components/module/navbar'
+import MainBody from '@/components/pages/mainBody'
 
 function App() {
   return (
     <div>
       <NavBar />
-      Body
+      <MainBody />
     </div>
   )
 }
