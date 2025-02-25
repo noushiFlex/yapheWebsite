@@ -3,8 +3,15 @@
 import React, { useState } from 'react';
 import { NumberTicker } from '../magicui/number-ticker';
 import Link from 'next/link';
+import BoxService from '../module/boxservice';
 
 function MainBody() {
+
+    const services = [
+        { title: "Decoration d'exterieure", content: "Décorations festives pour tous vos événements : mariages, anniversaires et célébrations spéciales", img: '/mariageDeco.jpg' },
+        { title: "Decoration d'exterieure", content: "Soins complets pour vos mains et pieds : vernis, manucure, pédicure et nettoyage professionnel", img: 'https://i.pinimg.com/474x/43/3a/2a/433a2a0fcdd0b98610a5ec9a24e72e0e.jpg' },
+        { title: "Decoration d'exterieure", content: "Sublimez vos événements avec nos décorations personnalisées, créant une ambiance mémorable pour toutes vos célébrations spéciales.t", img: '/mariageDeco.jpg' },
+    ]
 
     return (
         <div className="min-h-screen bg-[#f8f5f0]">
@@ -27,9 +34,12 @@ function MainBody() {
 
             <div className="h-screen mx-auto py-20 px-6 text-center bg-[var(--second)] text-[var(--third)]">
                 <h2 className="text-3xl font-bold">Nos Services</h2>
-                <div className='w-full grid grid-cols-2 gap-1 mt-10'>
-                    <div className='bg-white h-44 '></div>
-                    <div className='bg-white h-44 '></div>
+                <div className="w-full grid grid-cols-2 gap-2 mt-10">
+                    {
+                        services.map((service, index) => (
+                            <BoxService key={index} title={service.title} content={service.content} img={service.img} />
+                        ))
+                    }
                 </div>
             </div>
         </div>
