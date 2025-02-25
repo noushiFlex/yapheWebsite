@@ -4,12 +4,12 @@ import MainBody from '@/components/pages/mainBody'
 
 function App() {
   return (
-    <div>
+    <main>
       <div className=' w-full overflow-hidden'> {/* Header */}
         <NavBar />
         <MainBody />
       </div>
-    </div>
+    </main>
   )
 }
 

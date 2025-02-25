@@ -1,9 +1,4 @@
-import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
-
-const br = Bricolage_Grotesque({
-
-});
 
 export const metadata = {
   title: "Yaphe Beauty Spa and Home Services",
