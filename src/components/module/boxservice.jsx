@@ -1,21 +1,28 @@
-import React from 'react'
+import React from 'react';
 
-function BoxService(props) {
-    return (
-        <div className="bg-white rounded-xl p-2 h-auto shadow-md overflow-hidden">
-            <div className="h-40 bg-red-400 rounded-lg flex items-center justify-center overflow-hidden">
-                <img src={props.img} className="w-full h-full object-cover" alt={props.title || "Service"} />
-            </div>
-            <div className="p-2">
-                <h1 className="text-[var(--second)] text-start font-bold text-xl rounded-t-md">
-                    {props.title}
-                </h1>
-                <p className="text-gray-700 text-sm overflow-hidden text-start">
-                    {props.content}
-                </p>
-            </div>
-        </div>
-    )
+function BoxService({ title, content, img }) {
+  return (
+    <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
+      {/* Conteneur d'image avec ratio 3:4 (optimal pour images verticales) */}
+      <div className="relative w-full h-0 overflow-hidden" style={{paddingBottom: '133.33%'}}> {/* Ratio 3:4 */}
+        <img 
+          src={img} 
+          className="absolute inset-0 w-full h-full object-cover object-center" 
+          alt={title || "Service"} 
+          loading="lazy"
+        />
+      </div>
+      
+      <div className="p-4">
+        <h3 className="text-[var(--second)] font-bold text-xl mb-2">
+          {title}
+        </h3>
+        <p className="text-gray-700 text-sm leading-relaxed">
+          {content}
+        </p>
+      </div>
+    </div>
+  );
 }
 
-export default BoxService
+export default BoxService;
