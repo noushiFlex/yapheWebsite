@@ -9,6 +9,7 @@ function App() {
       <div className=' w-full overflow-hidden'> {/* Header */}
         <NavBar />
         <MainBody />
+        <MainFooter />
       </div>
     </main>
   )
