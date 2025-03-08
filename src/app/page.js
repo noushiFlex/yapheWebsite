@@ -6,7 +6,6 @@ import MainFooter from '@/components/pagesMain/mainFooter'
 function App() {
   return (
     <main>
-      Yoahnnn
       <div className=' w-full overflow-hidden'> {/* Header */}
         <NavBar />
         <MainBody />
