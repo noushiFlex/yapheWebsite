@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
     // Autoplay setup
     const interval = setInterval(() => {
       api.scrollNext();
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [api]);

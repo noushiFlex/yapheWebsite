@@ -35,24 +35,51 @@ export const services = [
   // Données pour la section témoignages
   export const testimonials = [
     {
-      role: "Mariée",
-      text: "L'équipe de Yaphé a magnifiquement décoré mon mariage. Leur attention aux détails et leur professionnalisme ont rendu notre journée spéciale encore plus mémorable.",
-      image:
-        "https://i.pinimg.com/474x/43/2a/f1/432af16756eecf8e2c17718733a498a2.jpg",
+        "role": "Mariée",
+        "text": "L'équipe de Yaphé a magnifiquement décoré mon mariage. Leur attention aux détails et leur professionnalisme ont rendu notre journée spéciale encore plus mémorable.",
+        "image": "https://i.pinimg.com/474x/43/2a/f1/432af16756eecf8e2c17718733a498a2.jpg"
     },
     {
-      role: "Cliente régulière",
-      text: "Je fréquente Yaphé depuis 3 ans pour mes soins de manucure et pédicure. L'équipe est toujours accueillante et le travail est impeccable. Je recommande vivement !",
-      image:
-        "https://i.pinimg.com/474x/f9/41/ae/f941ae9d19b8d88a5727d1fce0ffb40b.jpg",
+        "role": "Cliente régulière",
+        "text": "Je fréquente Yaphé depuis 3 ans pour mes soins de manucure et pédicure. L'équipe est toujours accueillante et le travail est impeccable. Je recommande vivement !",
+        "image": "https://i.pinimg.com/474x/f9/41/ae/f941ae9d19b8d88a5727d1fce0ffb40b.jpg"
     },
     {
-      role: "Organisateur d'événements",
-      text: "En tant qu'organisateur professionnel, je fais confiance à Yaphé pour la décoration de mes événements les plus prestigieux. Leur créativité et leur fiabilité sont exceptionnelles.",
-      image:
-        "https://i.pinimg.com/474x/72/53/e0/7253e03b7c29dc5aa0d24e799d4883b5.jpg",
+        "role": "Miss Côte d'Ivoire 20**",
+        "text": "En tant que Miss Côte d'Ivoire, l'élégance et le raffinement sont essentiels pour moi. Yaphé m'a offert une expérience exceptionnelle avec des soins de qualité et un service irréprochable.",
+        "image": "https://i.pinimg.com/474x/56/8d/3a/568d3a6a8fae56f84c9cdd02e4a77c5e.jpg"
     },
-  ];
+    {
+        "role": "Directrice Générale",
+        "text": "Diriger une entreprise demande du charisme et de l'assurance. Yaphé me permet de toujours être au top avec des prestations haut de gamme qui correspondent à mes attentes.",
+        "image": "https://i.pinimg.com/474x/7b/3c/2d/7b3c2d927f5b3a6bb8dc7a39d36e5f76.jpg"
+    },
+    {
+        "role": "Directrice Générale",
+        "text": "Le professionnalisme et la qualité de service de Yaphé sont incomparables. Un must pour toute femme active et exigeante.",
+        "image": "https://i.pinimg.com/474x/8b/33/9c/8b339c0b152a4f3d9a1bfa2836a1e67d.jpg"
+    },
+    {
+        "role": "Nouvelle cliente",
+        "text": "C'était ma première expérience chez Yaphé et j'ai été agréablement surprise ! Le personnel est professionnel et l'ambiance est très relaxante.",
+        "image": "https://i.pinimg.com/474x/8e/24/3c/8e243c234f4d4c9cbb3f5bb1f85d1a5b.jpg"
+    },
+    {
+        "role": "Client satisfait",
+        "text": "J'ai commandé une décoration florale pour un événement et le résultat était au-delà de mes attentes. Merci à toute l'équipe de Yaphé pour ce magnifique travail !",
+        "image": "https://i.pinimg.com/474x/9a/12/ab/9a12ab67286c3a9f67e1b97e63d43124.jpg"
+    },
+    {
+        "role": "Fidèle cliente",
+        "text": "Je viens ici depuis des années et je n'ai jamais été déçue. Toujours un service impeccable et une équipe aux petits soins.",
+        "image": "https://i.pinimg.com/474x/3f/4e/5b/3f4e5b5f5eec4d18a2f8b6c85b17f7aa.jpg"
+    },
+    {
+        "role": "Miss Côte d'Ivoire 20**",
+        "text": "Je tiens à remercier Yaphé pour leurs prestations exceptionnelles. Chaque détail est pris en compte pour un résultat toujours parfait.",
+        "image": "https://i.pinimg.com/474x/9d/21/3f/9d213f7486ec45c9b85a6ad0e3bdfd5a.jpg"
+    }
+];
   
   // Données pour les statistiques
   export const stats = [
