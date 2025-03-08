@@ -125,7 +125,7 @@ export const services = [
     {
       title: "Manucure & Pédicure",
       description: "Manucure, pédicure, soin du visage et massage relaxant.",
-      price: "À partir de 5.000 FCFA",
+      price: "En fonction du style",
       image: "https://i.pinimg.com/474x/aa/88/0c/aa880c93c6986328afbd4018afab4c09.jpg",
       link: "/services/spa"
     },
